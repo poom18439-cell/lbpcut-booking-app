@@ -1,59 +1,37 @@
 <img width="1911" height="910" alt="image" src="https://github.com/user-attachments/assets/0575fc12-461d-4832-a6df-f254e03a616e" />
 <img width="1905" height="912" alt="image" src="https://github.com/user-attachments/assets/234d6d36-508e-4f12-8bcb-355bec4adece" />
 
-# Welcome to your Expo app 👋
+# ✂️ LBPCUT - Barbershop Booking Application 
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Web Application สำหรับจองคิวร้านตัดผมออนไลน์ ออกแบบมาเพื่อให้ลูกค้าใช้งานง่าย จองคิวได้แบบ Real-time และป้องกันปัญหาคิวซ้อนทับกัน (Slot Blocking Algorithm)
 
-## Get started
+<div align="center">
+  <!-- ลบข้อความตรงนี้ แล้วลากรูปหน้าแรกที่มีกรรไกร 3D มาวางเลยครับ -->
+  [แทรกรูปหน้าแรกที่มีกรรไกร 3D ตรงนี้]
+</div>
 
-1. Install dependencies
+## ✨ Features (จุดเด่นของระบบ)
+- 🧊 **3D Hero Section:** เรนเดอร์โมเดล 3D แบบ Interactive ด้วย React Three Fiber
+- 📅 **Dynamic Slot Blocking:** ลอจิกจัดการเวลาอัจฉริยะ บล็อกคิวล่วงหน้าตามระยะเวลาของบริการอัตโนมัติ 
+- 🔄 **Real-time Database:** ข้อมูลบริการ ราคา และคิวงาน ดึงตรงจาก Supabase (Data-Driven UI)
+- 🇹🇭🇬🇧 **Localization:** รองรับการเปลี่ยนภาษา (ไทย/อังกฤษ) ทั่วทั้งแอปแบบ Real-time ผ่าน Context API
 
-   ```bash
-   npm install
-   ```
+## 🛠 Tech Stack (เทคโนโลยีที่ใช้)
+- **Frontend:** React Native (Expo Router)
+- **Backend & Database:** Supabase (PostgreSQL)
+- **Styling:** React Native StyleSheet (Flexbox)
+- **Deployment:** Netlify (พร้อมเขียน Custom Build Script ด้วย Node.js)
 
-2. Start the app
+## 📸 Screenshots (ภาพรวมระบบ)
 
-   ```bash
-   npx expo start
-   ```
+| หน้าบริการ & ตารางคิว | หน้าเลือกระยะเวลา (Time Slot) |
+| :---: | :---: |
+| [แทรกรูปหน้าบริการตรงนี้] | [แทรกรูปหน้าเลือกเวลาตรงนี้] |
+| หน้ากรอกข้อมูลลูกค้า | หน้าสรุปการจอง |
+| [แทรกรูปหน้าลูกค้าตรงนี้] | [แทรกรูปหน้าสำเร็จตรงนี้] |
 
-In the output, you'll find options to open the app in a
+## 🚀 ลิงก์เข้าใช้งานจริง (Live Demo)
+👉 [ใส่ลิงก์ Netlify ของคุณตรงนี้ เช่น https://lbpcut.netlify.app]
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **src/app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **example** directory and create a blank **src/app** directory where you can start developing.
-
-### Other setup steps
-
-- To set up ESLint for linting, run `npx expo lint`, or follow our guide on ["Using ESLint and Prettier"](https://docs.expo.dev/guides/using-eslint/)
-- If you'd like to set up unit testing, follow our guide on ["Unit Testing with Jest"](https://docs.expo.dev/develop/unit-testing/)
-- Learn more about the TypeScript setup in this template in our guide on ["Using TypeScript"](https://docs.expo.dev/guides/typescript/)
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+---
+*Developed by ฐานิกร ผดุงพัฒน์ (Poom)*

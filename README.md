@@ -1,5 +1,5 @@
 <img width="1911" height="910" alt="image" src="https://github.com/user-attachments/assets/0575fc12-461d-4832-a6df-f254e03a616e" />
-![Uploading image.png…]()
+<img width="1905" height="912" alt="image" src="https://github.com/user-attachments/assets/234d6d36-508e-4f12-8bcb-355bec4adece" />
 
 # Welcome to your Expo app 👋
 
